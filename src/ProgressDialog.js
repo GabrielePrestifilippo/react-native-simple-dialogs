@@ -53,9 +53,6 @@ ProgressDialog.propTypes = {
     ...Dialog.propTypes,
     message: PropTypes.string.isRequired,
     messageStyle: Text.propTypes.style,
-    activityIndicatorColor: ActivityIndicator.propTypes.color,
-    activityIndicatorSize: ActivityIndicator.propTypes.size,
-    activityIndicatorStyle: ActivityIndicator.propTypes.style
 }
 
 delete ProgressDialog.propTypes.children;
